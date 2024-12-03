@@ -16,16 +16,17 @@ const ReportePae = () => {
             </div>
             <div className="hero bg-base-200 ">
                 <div className="hero-content text-center"> 
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl font-bold">7</h2>
-                    <p className="mt-2 text-gray-400">
-                        Formatos de entrega.
-                    </p>
-                </div>      
+                    
                     <div className="stats stats-vertical lg:stats-horizontal shadow">
+                    <div className="text-center mb-8">
+                        <h2 className="text-3xl font-bold p-8">7</h2>
+                        <p className="mt-2 text-gray-500">
+                            Formatos de entrega.
+                        </p>
+                    </div>  
                         <div className="stat">
                             {/* __________________________________________________________________________________________________________ */}
-                            <div className="stat-value text-2xl">
+                            <div className="stat-value text-xl">
                             📃Remisión y entrega de Viveres
                             </div>
                             <label htmlFor="my_modal_7" className="btn">ver</label>
@@ -42,7 +43,7 @@ const ReportePae = () => {
                         </div>
                         {/* __________________________________________________________________________________________________________ */}
                         <div className="stat">
-                            <div className="stat-value text-2xl">📊Planilla de control diario</div>
+                            <div className="stat-value text-xl">📊Planilla de control diario</div>
                             <label htmlFor="my_modal_1" className="btn">ver</label>
 
                             <input type="checkbox" id="my_modal_1" className="modal-toggle" />
@@ -57,7 +58,7 @@ const ReportePae = () => {
                         </div>
                         {/* __________________________________________________________________________________________________________ */}
                         <div className="stat">
-                            <div className="stat-value text-2xl">🏵️Comprobante de egreso C.E.M</div>
+                            <div className="stat-value text-xl">🏵️Comprobante de egreso C.E.M</div>
                             <label htmlFor="my_modal_6" className="btn">ver</label>
 
                             <input type="checkbox" id="my_modal_6" className="modal-toggle" />
@@ -72,7 +73,7 @@ const ReportePae = () => {
                         </div>
                         {/* __________________________________________________________________________________________________________ */}
                         <div className="stat">
-                            <div className="stat-value text-2xl">🏵️Comprobante de egreso Economas</div>
+                            <div className="stat-value text-xl">🏵️Comprobante de egreso Economas</div>
                             <label htmlFor="my_modal_3" className="btn">ver</label>
 
                             <input type="checkbox" id="my_modal_3" className="modal-toggle" />
@@ -87,7 +88,7 @@ const ReportePae = () => {
                         </div>
                         {/* __________________________________________________________________________________________________________ */}
                         <div className="stat">
-                            <div className="stat-value text-2xl">🏫Combustible en sede</div>
+                            <div className="stat-value text-xl">🏫Combustible en sede</div>
                             <label htmlFor="my_modal_4" className="btn">ver</label>
 
                             <input type="checkbox" id="my_modal_4" className="modal-toggle" />
@@ -102,7 +103,7 @@ const ReportePae = () => {
                         </div>
                         {/* __________________________________________________________________________________________________________ */}
                         <div className="stat">
-                            <div className="stat-value text-2xl">📑Acta Priorizados</div>
+                            <div className="stat-value text-xl">📑Acta Priorizados</div>
                             <label htmlFor="my_modal_5" className="btn">ver</label>
 
                             <input type="checkbox" id="my_modal_5" className="modal-toggle" />
