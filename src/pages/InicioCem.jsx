@@ -16,11 +16,11 @@ const InicioCem = () => {
     <div className="h-screen flex flex-col justify-center items-center text-center">
     <img src={logocem} style={{ width: '570px',height: '90px'}}/>
     <br />
-      <h1 className="text-3xl font-bold">INFORME GENERAL SECRETARIA</h1>
+      <h1 className="text-4xl font-bold">INFORME GENERAL</h1>
       <br />
-      <h2 className="text-xl font-semibold">SECRETARIO CEM 2024</h2>
+      <h2 className="text-2xl font-semibold">SECRETARIO C.E.M 2024</h2>
       <br />
-      <p className="text-lg font-semibold mb-4">JOSE DOMIGO ARANDA CALAMBAS</p>
+      <p className="text-lg font-semibold mb-4">JOSE DOMINGO ARANDA CALAMBAS</p>
       
       <div className="flex justify-between items-center w-full max-w-md">
         {/* Imagen de la izquierda */}
