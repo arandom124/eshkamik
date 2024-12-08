@@ -11,6 +11,7 @@ import NovedadesPae from './pages/NovedadesPae';
 import ReportePae from './pages/ReportePae';
 import AportesCem from './pages/AportesCem';
 import CostosCem from './pages/CostosCem';
+import CostosTotales from './pages/CostosTotales';
 
 import Footer from './pages/Footer';
 
@@ -29,6 +30,7 @@ function App() {
       <ReportePae/>
       <AportesCem/>
       <CostosCem/>
+      <CostosTotales/>
 
       <Footer/>
 
